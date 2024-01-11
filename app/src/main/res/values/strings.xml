@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FetchTakeHome</string>
+    <string name="app_title">Fetch Rewards</string>
+    <string name='button_function'>Fetch</string>
+    <string name="list_num">List %1$d</string>
+</resources>
