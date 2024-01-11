@@ -36,8 +36,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun initializeList() {
         lists = ArrayList()
-        val listAdapter1 = ArrayAdapter<String>(this, android.R.layout.simple_list_item_2, android.R.id.text2, lists)
-
         listAdapter = object : ArrayAdapter<String>(this, android.R.layout.simple_list_item_2, android.R.id.text1, lists) {
             override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
                 val view = super.getView(position, convertView, parent)
